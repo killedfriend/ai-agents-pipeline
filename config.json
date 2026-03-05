@@ -1,0 +1,20 @@
+{
+  "repo": "git@github.com:user/repo-name.git",
+  "test_server": {
+    "host": "127.0.0.1",
+    "port": 22,
+    "user": "deploy",
+    "path": "/opt/app",
+    "ssh_key": "~/.ssh/app_deploy"
+  },
+  "telegram": {
+    "bot_token": "${TELEGRAM_BOT_TOKEN}",
+    "chat_id": "${TELEGRAM_CHAT_ID}"
+  },
+  "max_retries": 3,
+  "qa": {
+    "smoke_tests": ["auth", "generation", "payment"],
+    "frontend_url": "http://localhost:8080",
+    "backend_url": "http://localhost:8091"
+  }
+}

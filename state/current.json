@@ -1,0 +1,17 @@
+{
+  "feature": "neurophoto-conversion",
+  "branch": "feature/neurophoto-conversion",
+  "status": "qa_passed",
+  "attempt": 1,
+  "started_at": "2026-02-21T22:00:00Z",
+  "updated_at": "2026-02-21T22:10:00Z",
+  "git_sha": "c4cc406",
+  "qa_results": {
+    "verdict": "PASS",
+    "checks_passed": 10,
+    "checks_total": 10,
+    "critical_bugs": 0,
+    "warning_bugs": 0
+  },
+  "errors": []
+}
